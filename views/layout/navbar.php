@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm px-3"></nav>
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm px-3">
     <a class="navbar-brand fw-bold text-dark" href="#">CodeSphare</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
       <span class="navbar-toggler-icon"></span>

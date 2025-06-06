@@ -1,29 +1,44 @@
 <?php
 session_start();
 ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>CodeSphare</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <?php include 'layout/header.php'; ?> 
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="asset/css/style.css">
 </head>
 <body>
 
-<?php include 'layout/navbar.php'; ?>
+  <!-- 🔝 Navbar -->
+  <?php include 'views/layout/navbar.php' ?>
 
-<div class="wrapper">
-  <?php include 'layout/sidebar.php'; ?>
+  <!-- 🧩 Main Page Layout -->
+  <div class="main-wrapper">
+    <!-- 📚 Sidebar -->
+     <?php include '<views/layout/sidebar.php' ?> 
 
-<div class="main-content p-4">
-  <?php include 'pages/home.php'; ?>
-</div>
-</div>
+    <!-- 🖥️ Main Content -->
+    <div class="main-content">
+      <h3>Welcome to CodeSphare</h3>
+      <p>This is your coding playground. Choose a problem, write your solution, and test it here.</p>
 
-<?php include 'layout/footer.php'; ?>
+      <!-- 🧪 Coding Interface Placeholder -->
+      <div class="card p-3 mt-3">
+        <p><em>Insert your coding interface or problem display module here.</em></p>
+      </div>
+    </div>
+  </div>
 
-<!-- Bootstrap Bundle JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <?php include 'views/layout/footer.php' ?>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
