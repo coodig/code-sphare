@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Problem Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <style>
+    body {
+      background-color: #1e1e1e;
+      color: #d4d4d4;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .container-flex {
+      display: flex;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .sidebar {
+      width: 30%;
+      background-color: #252526;
+      padding: 1rem;
+      overflow-y: auto;
+      border-right: 1px solid #333;
+    }
+
+    .code-editor {
+      width: 70%;
+      background-color: #1e1e1e;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .editor-header {
+      padding: 0.5rem 1rem;
+      background-color: #2d2d2d;
+      border-bottom: 1px solid #444;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .editor-body {
+      flex-grow: 1;
+      padding: 1rem;
+      background-color: #1e1e1e;
+    }
+
+    textarea {
+      width: 100%;
+      height: 100%;
+      background-color: #1e1e1e;
+      border: none;
+      color: #d4d4d4;
+      font-family: Consolas, monospace;
+      font-size: 14px;
+      resize: none;
+    }
+
+    .testcase {
+      background-color: #252526;
+      padding: 1rem;
+      border-top: 1px solid #333;
+    }
+
+    .btn-run {
+      background-color: #0e639c;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+    }
+
+    .btn-run:hover {
+      background-color: #1177bb;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container-flex">
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <h4>1. Two Sum</h4>
+    <p><strong>Difficulty:</strong> Easy</p>
+    <p><strong>Tags:</strong> Array, HashMap</p>
+    <p><strong>Description:</strong><br>
+      Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+    </p>
+    <hr/>
+    <h6>Example:</h6>
+    <pre>
+Input: nums = [2,7,11,15], target = 9
+Output: [0,1]
+    </pre>
+  </div>
+
+  <!-- Code Editor -->
+  <div class="code-editor">
+    <div class="editor-header">
+      <span>C++</span>
+      <button class="btn-run">Run</button>
+    </div>
+    <div class="editor-body">
+      <textarea spellcheck="false">// Write your code here
+class Solution {
+public:
+    vector&lt;int&gt; twoSum(vector&lt;int&gt;& nums, int target) {
+        
+    }
+};</textarea>
+    </div>
+    <div class="testcase">
+      <h6>Testcase</h6>
+      <p><strong>nums:</strong> [2,7,11,15]</p>
+      <p><strong>target:</strong> 9</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

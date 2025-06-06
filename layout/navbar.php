@@ -1,0 +1,29 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm px-3"></nav>
+    <a class="navbar-brand fw-bold text-dark" href="#">CodeSphare</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-between" id="navMenu">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Problems</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Solutions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Discuss</a>
+        </li>
+      </ul>
+
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-dark btn-sm ms-2" href="#">Sign Up</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
