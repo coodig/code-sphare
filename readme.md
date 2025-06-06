@@ -40,3 +40,12 @@ This project uses **Judge0 CE (Community Edition)** via RapidAPI:
     "x-rapidapi-host": "judge0-ce.p.rapidapi.com",
     "x-rapidapi-key": "YOUR_API_KEY"
   }
+
+  
+
+## <h2 style="color:red;">🚧🔧 Currently in Under Development Stage 🚧🔧</h2>
+
+> ⚠️ This project is actively being developed. Features may be incomplete or subject to change.  
+> Stay tuned and star the repo to follow progress! ⭐
+
+
