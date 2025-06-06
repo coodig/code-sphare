@@ -3,4 +3,5 @@
       <p>This is your coding playground. Choose a problem, write your solution, and test it here.</p>
 
       <!-- ⬇️ Inject your coding interface / problem list here -->
-    </div>
+        <div id="problemList">Loading problems...</div>
+</div>
