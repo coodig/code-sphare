@@ -2,11 +2,6 @@
 
 CodeSphare is a lightweight, browser-based code editor that supports running **HTML/CSS/JavaScript**, **C**, **C++**, and **Python** code directly from the frontend using the **Judge0 API**.
 
-## <h2 style="color:red;">🚧🔧 Currently in Under Development Stage 🚧🔧</h2>
-
-> ⚠️ This project is actively being developed. Features may be incomplete or subject to change.  
-> Stay tuned and star the repo to follow progress! ⭐
-
 ## 🌐 Live Preview (HTML/CSS/JS)
 
 Users can write and preview HTML, CSS, and JavaScript code in real time using an embedded `<iframe>` for output.
@@ -46,3 +41,7 @@ This project uses **Judge0 CE (Community Edition)** via RapidAPI:
     "x-rapidapi-key": "YOUR_API_KEY"
   }
 
+## <h2 style="color:red;">🚧🔧 Currently in Under Development Stage 🚧🔧</h2>
+
+> ⚠️ This project is actively being developed. Features may be incomplete or subject to change.  
+> Stay tuned and star the repo to follow progress! ⭐
